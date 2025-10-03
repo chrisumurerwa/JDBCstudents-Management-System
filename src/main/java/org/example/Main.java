@@ -17,7 +17,7 @@ public class Main {
              Scanner scanner = new Scanner(System.in)) {
 
             while (true) {
-                System.out.println("\n===== Student Management System =====");
+                System.out.println("\n== Student Management System ==");
                 System.out.println("1. Add Student");
                 System.out.println("2. Get All Students");
                 System.out.println("3. Update Student");

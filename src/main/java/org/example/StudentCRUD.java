@@ -49,7 +49,7 @@ public class StudentCRUD {
             try {
                 pstmt.setDate(4, Date.valueOf(student.getDateOfBirth())); // must be yyyy-MM-dd
             } catch (IllegalArgumentException e) {
-                System.out.println("⚠ Invalid date format. Please use YYYY-MM-DD.");
+                System.out.println(" Invalid date format. Please use YYYY-MM-DD.");
                 return;
             }
             pstmt.executeUpdate();
